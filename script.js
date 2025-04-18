@@ -1,0 +1,1 @@
+const overlay=document.getElementById('overlay'),exit=document.getElementById('exitBtn'),full=document.getElementById('full');document.querySelectorAll('.thumb').forEach(el=>{el.onclick=()=>{full.src=el.src;overlay.classList.add('show')}});exit.onclick=()=>overlay.classList.remove('show')
